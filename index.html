@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Bhooma ☀️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #090612;
+    color: #fff4f7;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 22px;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+}
+
+.small-title {
+    color: #eeb4c8;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: clamp(55px, 13vw, 110px);
+    line-height: .9;
+    margin: 25px 0;
+}
+
+h2 {
+    font-size: clamp(40px, 9vw, 70px);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #eadde2;
+}
+
+.sun {
+    font-size: 60px;
+    animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        transform: scale(1);
+        filter: drop-shadow(0 0 10px #ffca70);
+    }
+
+    to {
+        transform: scale(1.12);
+        filter: drop-shadow(0 0 35px #ffca70);
+    }
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    padding: 16px 28px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #efaec5;
+    color: #21121a;
+    transition: .3s;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px #efaec555;
+}
+
+.secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid #ffffff55;
+}
+
+.card {
+    background: #ffffff09;
+    border: 1px solid #ffffff1c;
+    border-radius: 30px;
+    padding: 35px;
+    backdrop-filter: blur(12px);
+}
+
+.letter {
+    text-align: left;
+}
+
+.letter p {
+    font-family: Georgia, serif;
+    font-size: 21px;
+}
+
+.divider {
+    margin: 35px 0;
+    color: #efaec5;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.final {
+    color: #efaec5;
+    font-size: clamp(50px, 11vw, 90px);
+}
+
+.stars {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    opacity: .7;
+    animation: twinkle 3s infinite alternate;
+}
+
+@keyframes twinkle {
+    from { opacity: .8; }
+    to { opacity: .15; }
+}
+
+.heart {
+    position: fixed;
+    bottom: -30px;
+    pointer-events: none;
+    animation: rise 7s linear forwards;
+    z-index: 10;
+}
+
+@keyframes rise {
+    to {
+        transform: translateY(-110vh) rotate(25deg);
+        opacity: 0;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #998994;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars" id="stars"></div>
+
+<!-- OPENING -->
+<section>
+<div class="container">
+
+<div class="sun">☀️</div>
+
+<div class="small-title">
+A little something for you
+</div>
+
+<h1>
+Munhnjo<br>
+<i>Vaedi</i>
+</h1>
+
+<p>
+Bhooma, before you read anything else...
+just know that I made this with you in my mind.
+</p>
+
+<button onclick="scrollToSection('letter')">
+Open my heart 💌
+</button>
+
+</div>
+</section>
+
+
+<!-- LOVE STORY -->
+<section id="letter">
+
+<div class="container card letter">
+
+<div class="small-title">
+From my heart
+</div>
+
+<h2>
+Dear Bhooma,
+</h2>
+
+<p>
+I still don't completely understand how you became so important to me.
+Somewhere between our conversations, our random talks, your little updates,
+and those simple moments that probably meant nothing to anyone else...
+you became someone my heart started looking for every day.
+</p>
+
+<p>
+Maybe the funny thing about us is that I didn't plan any of this.
+I didn't sit down one day and decide that I would become this attached to you.
+It just happened.
+Slowly.
+And then suddenly, you were everywhere in my thoughts.
+</p>
+
+<p>
+A normal day feels different when I have spoken to you.
+A simple message from you can change my mood.
+And sometimes I catch myself smiling at my phone because of something you said.
+</p>
+
+<p>
+I know our story doesn't have every answer yet.
+And I don't want to force those answers.
+I don't want you to choose something because you feel pressured.
+</p>
+
+<p>
+I want you to choose because your heart genuinely wants to.
+</p>
+
+<div class="divider">
+✦ &nbsp; ☾ &nbsp; ✦
+</div>
+
+<p style="text-align:center;">
+Because if something is real,
+I believe it deserves time.
+</p>
+
+<button onclick="scrollToSection('question')">
+There's something I want to ask you...
+</button>
+
+</div>
+</section>
+
+
+<!-- PROPOSAL -->
+<section id="question">
+
+<div class="container">
+
+<div class="sun">🌷</div>
+
+<div class="small-title">
+Just one question
+</div>
+
+<h2>
+Bhooma...
+</h2>
+
+<p>
+I don't need a perfect answer.
+I don't need you to rush.
+I just want you to answer honestly.
+</p>
+
+<h2>
+Will you let me keep making beautiful memories with you?
+</h2>
+
+<button onclick="sayYes()">
+Yes 🤍
+</button>
+
+<button class="secondary" onclick="takeTime()">
+I need time 🌙
+</button>
+
+<div id="answer" class="card hidden">
+
+<h2 id="answerTitle"></h2>
+
+<p id="answerText"></p>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- END -->
+<section>
+
+<div class="container">
+
+<div class="small-title">
+Until the stars run out
+</div>
+
+<h2 class="final">
+I love you,<br>
+Bhooma.
+</h2>
+
+<p>
+In this enormous universe,
+I'm grateful that somehow our paths crossed.
+</p>
+
+<div class="divider">
+♡
+</div>
+
+<p>
+You are my sunshine.
+<br>
+My Munhnjo Vaedi. ☀️
+</p>
+
+<p style="font-size:13px;color:#9d8b95;">
+— Your Ulgesh
+</p>
+
+<button class="secondary" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+Read it again ↺
+</button>
+
+</div>
+</section>
+
+
+<footer>
+Made with love, only for Bhooma ☀️
+</footer>
+
+
+<script>
+
+/* CREATE STARS */
+
+for(let i = 0; i < 100; i++){
+
+    let star = document.createElement("div");
+
+    star.className = "star";
+
+    star.style.left = Math.random() * 100 + "%";
+    star.style.top = Math.random() * 100 + "%";
+
+    star.style.animationDelay =
+        Math.random() * 4 + "s";
+
+    document.getElementById("stars")
+        .appendChild(star);
+}
+
+
+/* SMOOTH SCROLL */
+
+function scrollToSection(id){
+
+    document.getElementById(id)
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+
+}
+
+
+/* YES */
+
+function sayYes(){
+
+    document.getElementById("answerTitle")
+        .innerText =
+        "Then let's make memories. 🤍";
+
+    document.getElementById("answerText")
+        .innerText =
+        "One conversation at a time. One laugh at a time. One beautiful memory at a time. Thank you for being you, Bhooma.";
+
+    document.getElementById("answer")
+        .classList.remove("hidden");
+
+    createHearts();
+}
+
+
+/* NEED TIME */
+
+function takeTime(){
+
+    document.getElementById("answerTitle")
+        .innerText =
+        "Slowly is beautiful too. 🌙";
+
+    document.getElementById("answerText")
+        .innerText =
+        "Take all the time your heart needs. I don't want a rushed answer. I want an honest one. Until then, I'm just happy that you're here.";
+
+    document.getElementById("answer")
+        .classList.remove("hidden");
+
+    createHearts();
+}
+
+
+/* FLOATING HEARTS */
+
+function createHearts(){
+
+    for(let i = 0; i < 25; i++){
+
+        let heart =
+            document.createElement("div");
+
+        heart.className = "heart";
+
+        heart.innerText =
+            ["♡","♥","✦","☀️"]
+            [Math.floor(Math.random()*4)];
+
+        heart.style.left =
+            Math.random()*100 + "%";
+
+        heart.style.fontSize =
+            (15 + Math.random()*25) + "px";
+
+        heart.style.animationDuration =
+            (5 + Math.random()*5) + "s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        },10000);
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
